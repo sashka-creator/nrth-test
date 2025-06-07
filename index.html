@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="nth - description">
+    <title>nrth - Secure. Reliable. Your Finance Partner</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lenis@1.1.3/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
+</head>
+<body>
+
+    <section class="modal">
+        <div class="modal__inner">
+            <img src="img/close.svg" alt="" class="modal__inner__close">
+            <img src="img//logo-modal.svg" alt="" class="modal__inner__logo">
+            <div class="modal__inner__divider"></div>
+            <p class="modal__inner__title title-medium ">Be the first</p>
+            <p class="modal__inner__subtitle text-normal-regular">Join early. Get more. Register for first access and receive an exclusive launch offer when we go live.</p>
+            <form class="modal__inner__form" id="modalForm">
+                <input type="email" name="email" class="modal__inner__form__input text-normal-regular" placeholder="E-mail" required>
+                <button type="submit" class="modal__inner__form__btn text-normal-regular">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <header class="header">    
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__inner__logo-wrapper">
+                    <img class="header__inner__logo" src="img/logo-header.svg" alt="">
+                </a>
+                <div class="header__inner__nav">
+                    <a href="#about" class="header__inner__nav__item text-normal-regular">Product</a>
+                    <a href="#animation" class="header__inner__nav__item text-normal-regular">How it works</a>
+                    <a href="#advantages" class="header__inner__nav__item text-normal-regular">Why</a>
+                    <a href="#pricing" class="header__inner__nav__item text-normal-regular">Plans</a>
+                    <a href="#faq" class="header__inner__nav__item text-normal-regular">FAQ</a>
+                </div>
+                <button class="header__inner__btn text-normal-medium">Apply to join</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__inner__info">
+                    <h1 class="intro__inner__info__title title-superlarge">Keep cashflow calm</h1>
+                    <p class="intro__inner__info__subtitle text-big-regular">NRTH manages payables and receivables. Invoices, payroll, suppliers — all in one smooth, quiet flow.</p>
+                    <button class="intro__inner__info__btn text-big-medium">
+                        Register your interest
+                        <img src="img/arrow-white.svg" alt="">
+                    </button>
+                </div>
+                <div class="main-screen">
+                    <img src="img/main-screen.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="brands__bk"></div>
+        <div class="container">
+            <div class="brands__inner">
+                <div class="brands__inner__top">
+                    <div class="brands__inner__top__rec"></div>
+                    <div class="brands__inner__top__text">
+                        <p class="brands__inner__top__text__title text-big-regular">5000+ Banks. One Connection</p>
+                        <p class="brands__inner__top__text__subtitle text-normal-regular">Trusted by UK based SMEs, Accountants & Bookkeepers</p>
+                    </div>
+                     <div class="brands__inner__top__rec"></div>
+                </div>
+                <div class="brands__inner__bottom">
+                    <div class="brands__inner__bottom__track">
+                        <img src="img/visa.svg" alt="Visa" />
+                        <img src="img/mastercard.svg" alt="Mastercard" />
+                        <img src="img/xero.svg" alt="Xero" />
+                        <img src="img/lloyds.svg" alt="Lloyds" />
+                        <img src="img/hsbc.svg" alt="HSBC" />
+                        <img src="img/barclays.svg" alt="Barclays" />
+                        <img src="img/santander.svg" alt="Santander" />
+                        <img src="img/revolut.svg" alt="Revolut" />
+                        <img src="img/nationwide.svg" alt="Nationwide" />
+                        <img src="img/first direct.svg" alt="First Direct" />
+                        <img src="img/visa.svg" alt="Visa" />
+                        <img src="img/mastercard.svg" alt="Mastercard" />
+                        <img src="img/xero.svg" alt="Xero" />
+                        <img src="img/lloyds.svg" alt="Lloyds" />
+                        <img src="img/hsbc.svg" alt="HSBC" />
+                        <img src="img/barclays.svg" alt="Barclays" />
+                        <img src="img/santander.svg" alt="Santander" />
+                        <img src="img/revolut.svg" alt="Revolut" />
+                        <img src="img/nationwide.svg" alt="Nationwide" />
+                        <img src="img/first direct.svg" alt="First Direct" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__inner__item">
+                    <img src="img/trust.svg" alt="" class="about__inner__item__img">
+                    <p class="about__inner__item__title title-medium">Build on trust</p>
+                    <p class="about__inner__item__subtitle text-big-regular">Regulated by the Financial Conduct Authority, NRTH ensures every payment is secure, compliant, and monitored.</p>
+                </div>
+                <div class="about__inner__item">
+                    <img src="img/time.svg" alt="" class="about__inner__item__img">
+                    <p class="about__inner__item__title title-medium">Paid on time</p>
+                    <p class="about__inner__item__subtitle text-big-regular">*72% of businesses get paid late. <br>You won’t. With Direct Debit, payments land fast and automatically every time.</p>
+                </div>
+                <div class="about__inner__item">
+                    <img src="img/automate.svg" alt="" class="about__inner__item__img">
+                    <p class="about__inner__item__title title-medium">Fully automated</p>
+                    <p class="about__inner__item__subtitle text-big-regular">Pay staff and suppliers in one go. NRTH syncs with your accounting software, with no spreadsheets and no stress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="scroll-animation">
+        <div class="animation-container">
+            <img id="frameImage" src="" alt="Animation Frame">
+        </div>
+    </section>
+    
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__item">
+                <h2 class="advantages__item__title title-large" id="advantages">All under one roof</h2>
+                <p class="advantages__item__subtitle text-normal-regular">Receive payments. Run payroll. Plan your budget based on predicted cash flow — and much more.</p>
+                <div class="advantages__item__visual">
+                    <img src="img/chart.webp" alt="" class="advantages-chart">
+                    <img src="img/mountain.webp" alt="" class="advantages-mountain">
+                    <div class="wrapper-payment">
+                        <div class="wrapper-payment-image-dark"></div>
+                        <img src="img/payment.webp" alt="" class="wrapper-payment-img">
+                    </div>
+                    <div class="wrapper-payroll">
+                        <div class="wrapper-payroll-image-dark"></div>
+                        <img src="img/payroll.webp" alt="" class="wrapper-payroll-img">
+                    </div>
+                    <div class="dop-info-payment">
+                        <img src="img/line.svg" alt="">
+                        <p class="dop-info-payment-text text-normal-regular">Receive payments. Run payroll. Plan your budget based on predicted cash flow</p>
+                    </div>
+                    <div class="dop-info-payroll">
+                        <p class="dop-info-payroll-text text-normal-regular">Receive payments. Run payroll. Plan your budget based on predicted cash flow</p>
+                         <img src="img/line.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__top">
+                <div class="advantages__item">
+                    <h3 class="advantages__item__title title-big">Any bank</h3>
+                    <p class="advantages__item__subtitle text-normal-regular">Account-to-account means no delays, necard data, and no risk. Just smoother, safer payinents.</p>
+                    <div class="advantages__item__visual">
+                        <img src="img/bank.webp" alt="" class="advantages__item__visual__img">
+                    </div>
+                </div>
+                 <div class="advantages__item">
+                    <h4 class="advantages__item__title title-big">Any currency</h4>
+                    <p class="advantages__item__subtitle text-normal-regular">Accept and send payments in 160+ currencies. Operate globally with no limits.</p>
+                    <div class="advantages__item__visual">
+                        <img src="img/currency.webp" alt="" class="advantages__item__visual__img">
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__divider"></div>
+            <div class="advantages__bottom">
+                <div class="advantages__bottom__item__small">
+                    <div class="advantages__bottom__item__small__top">
+                        <img src="img/fca.svg" alt="" class="advantages__bottom__item__small__top__img">
+                        <p class="advantages__bottom__item__small__top__text text-big-regular">FCA Regulated</p>
+                    </div>
+                    <div class="advantages__bottom__item__small__bottom text-normal-regular">Licensed and governed for full financial protection.</div>
+                </div>
+                <div class="advantages__bottom__item__small">
+                    <div class="advantages__bottom__item__small__top">
+                        <img src="img/secure.svg" alt="" class="advantages__bottom__item__small__top__img">
+                        <p class="advantages__bottom__item__small__top__text text-big-regular">Bank encryption</p>
+                    </div>
+                    <div class="advantages__bottom__item__small__bottom text-normal-regular">Advanced security built to keep your money and data safe.</div>
+                </div>
+                <div class="advantages__bottom__item__small">
+                    <div class="advantages__bottom__item__small__top">
+                        <img src="img/traking.svg" alt="" class="advantages__bottom__item__small__top__img">
+                        <p class="advantages__bottom__item__small__top__text text-big-regular">Real-time tracking</p>
+                    </div>
+                    <div class="advantages__bottom__item__small__bottom text-normal-regular">See every payment and movement as it happens.</div>
+                </div>
+                <div class="advantages__bottom__item__small">
+                    <div class="advantages__bottom__item__small__top">
+                        <img src="img/trusted.svg" alt="" class="advantages__bottom__item__small__top__img">
+                        <p class="advantages__bottom__item__small__top__text text-big-regular">Trusted</p>
+                    </div>
+                    <div class="advantages__bottom__item__small__bottom text-normal-regular">Powered by the same rails used by the UK’s top fintechs.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="pricing__inner ">
+                <div class="pricing__inner__text">
+                    <h4 class="pricing__inner__text__title title-large " id="pricing">Pricing</h4>
+                    <p class="pricing__inner__text__subtitle">Transparent fees, no hidden costs</p>
+                </div>
+                <div class="pricing__inner__info">
+                    <div class="pricing__inner__info__item">
+                        <div class="pricing__inner__info__item__main">
+                            <p class="pricing__inner__info__item__main__title title-medium ">Collection</p>
+                            <div class="pricing__inner__info__item__main__points">
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">1% + 20p per transaction</p>
+                                </div>
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">Capped at £5 per invoice (up to £2,000)</p>
+                                </div>
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">0.3% on anything over £2,000</p>
+                                </div>
+                            </div>
+                            <button class="pricing__inner__info__item__main__btn text-normal-medium">
+                               Get started
+                            </button>
+                        </div>
+                        <div class="pricing__inner__info__item__main__divider"></div>
+                        <div class="pricing__inner__info__item__main__info">
+                            <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Instant Direct Debits, zero hassle</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Branded payments with your name</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Full control of payment terms</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Easy integration with accounting tools</p>
+                            </div>
+                        </div>
+                        <div class="pricing__inner__info__item__main__info">
+                            <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Instant Direct Debits, zero hassle</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Branded payments with your name</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Full control of payment terms</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Easy integration with accounting tools</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing__inner__info__item">
+                        <div class="pricing__inner__info__item__main">
+                            <p class="pricing__inner__info__item__main__title title-medium ">Collection + Payroll</p>
+                            <div class="pricing__inner__info__item__main__points">
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">1% + 20p per transaction</p>
+                                </div>
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">Capped at £5 per invoice (up to £2,000)</p>
+                                </div>
+                                <div class="pricing__inner__info__item__main__points__item">
+                                    <img src="img/point.svg" alt="">
+                                    <p class="pricing__inner__info__item__main__points__item__text">0.3% on anything over £2,000</p>
+                                </div>
+                            </div>
+                            <button class="pricing__inner__info__item__main__btn text-normal-medium">
+                               Get started
+                            </button>
+                        </div>
+                        <div class="pricing__inner__info__item__main__divider"></div>
+                        <div class="pricing__inner__info__item__main__info">
+                            <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Instant Direct Debits, zero hassle</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Branded payments with your name</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Full control of payment terms</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Easy integration with accounting tools</p>
+                            </div>
+                        </div>
+                        <div class="pricing__inner__info__item__main__info">
+                            <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Instant Direct Debits, zero hassle</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Branded payments with your name</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Full control of payment terms</p>
+                            </div>
+                             <div class="pricing__inner__info__item__main__info__item">
+                                <img src="img/check.svg" alt="" class="pricing__inner__info__item__main__info__item__img">
+                                <p class="pricing__inner__info__item__main__info__item__text">Easy integration with accounting tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="faq__text">
+                <h5 class="faq__text__title title-large" id="faq">FAQ</h5>
+            </div>
+            <div class="faq__inner">
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">How does NRTH work?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">It connects to your accounting software, tracks when you send an invoice, and automatically collects payment on the due date. You just send clients a one-time/Direct Debit link as part of onboarding — once they're signed up, everything runs on autopilot.</p>
+                </div>
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">Is NRTH safe to use?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">Yes. Were FCA-regulated and use bank-grade encryption. No cards. No data risk. Just secure, direct payments.</p>
+                </div>
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">Can I connect my accounting software?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">Yes. We integrate with tools like Xero and QuickBooks so you can sync invoices and automate collections in seconds.</p>
+                </div>
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">Who exactly is NRTH for?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">Fove sported i suspicious raisaction business owners tired of chasing payments and late payrolls. If cash flow matters te you, NRTH is for you.</p>
+                </div>
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">What happens if a payment fails?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">We’ll notify you instantly. You can retry or follow up without needing to lift a finger — we’ll guide you through every step.</p>
+                </div>
+                <div class="faq__inner__item">
+                    <div class="faq__inner__item__top">
+                        <p class="faq__inner__item__top__title text-large-medium">What does it cost?</p>
+                        <img src="img/plus.svg" alt="" class="faq__inner__item__top__img">
+                    </div>
+                    <p class="faq__inner__item__mid text-normal-regular ">It’ll cost you just £5.20 to collect the first £2,000. After that, it’s £3 for every extra £1,000. No setup fees. No subscriptions. You only pay when you get paid.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta__inner">
+                <h5 class="cta__inner__title title-large ">Get started with NRTH</h5>
+                <p class="cta__inner__text text-normal-regular">Join early. Get more. Register for first access and receive an exclusive launch offer when we go live.</p>
+                <button class="cta__inner__btn  text-big-medium">
+                        Register your interest
+                        <img src="img/arrow-black.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner__top">
+                    <img src="img/logo-footer.svg" alt="" class="footer__inner__top__logo">
+                    <div class="footer__inner__top__social">
+                        <a href="#" class="footer__inner__top__social__item">
+                            <img src="img/inst.svg" alt="">
+                        </a>
+                        <a href="#" class="footer__inner__top__social__item">
+                            <img src="img/linked.svg" alt="">
+                        </a>
+                         <a href="#" class="footer__inner__top__social__item">
+                            <img src="img/x.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__inner__divider"></div>
+                <div class="footer__inner__mid">
+                    <div class="footer__inner__mid__links">
+                        <a href="privacy.html" target="_blank" class="footer__inner__mid__links__item">Privacy policy</a>
+                        <a href="terms.html" target="_blank"class="footer__inner__mid__links__item">Terms of service</a>
+                        <a href="cookies.html" target="_blank" class="footer__inner__mid__links__item">Cookie policy</a>
+                        <a href="https://www.fca.org.uk/" target="_blank" rel="noopener noreferrer" class="footer__inner__mid__links__item">FCA Regulatory Info</a>
+                    </div>
+                    <div class="footer__inner__mid__email">hello@gonrth.co</div>
+                </div>
+                <div class="footer__inner__divider"></div>
+                <div class="footer__inner__bottom">
+                    <p class="footer__inner__bottom__title text-small-medium">© 2025 NRTH</p>
+                    <div class="footer__inner__bottom__text text-small-regular ">
+                        <p>NRTH is a trading name of Gonrth Ltd, a company registered in England and Wales under company number 16286129. Gonrth Ltd is authorised and regulated by the Financial Conduct Authority (FCA) under the Electronic Money Regulations 2011. The firm is registered with the FCA under reference number [TBC] and is authorised to provide credit, payment, current account, and electronic money services. The company’s registered address is 7 Westferry Circus, Canary Wharf, London, E14 4HD, United Kingdom. Gonrth Ltd is also a registered Direct Debit Service User with Service User Number (SUN) [TBC].</p>
+                        <p>NRTH Insurance Ltd is authorised and regulated by the Financial Conduct Authority to provide insurance distribution services under FCA reference number [insert FCA number] and is registered at the same address: 7 Westferry Circus, Canary Wharf, London, E14 4HD. Insurance-related products for NRTH customers may also be provided by NRTH Travel Ltd, which is authorised and regulated by the FCA to undertake insurance mediation activities under FCA number 780586. Gonrth Ltd is an Appointed Representative of NRTH Travel Ltd for the purposes of insurance distribution.</p>
+                        <p>If you would like to find out more about which NRTH entity provides your services, please click here. For any questions, please contact us through the in-app chat in the NRTH app. Use of our services is subject to our Terms & Conditions and Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
